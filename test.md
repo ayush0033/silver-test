@@ -1,17 +1,37 @@
-# Release Updates (2025-04-05 to 2025-05-05)
+# Shuffle Release Summary
 
-## Features
-- Implemented a debug UI for AI Agent workflows to simplify monitoring and debugging.
-- Enhanced the AI Agent decision rerun system to ensure single workflow execution for streamlined processes.
-- Stabilized API key management for use in notification systems and added edge case handlers for more robust operations.
+**Period:** April 5, 2025 – May 5, 2025
 
-## Bug Fixes
-- Resolved issue causing workflow page crashes in on-prem setups.
-- Fixed edge case distribution issues affecting certain deployment scenarios.
-- Addressed a region-specific error for loading public workflows when unavailable in a targeted region.
-- Applied minor fixes to the billing page for smoother user experience.
+---
 
-## Other Updates
-- Synchronized with the main branch to align with the latest improvements and changes.
-- Added detailed application response logging in the worker for better traceability and debugging.
-- Minor updates and cleanups to improve system stability and maintainability.
+## 🚀 Features
+
+* **AI Agent Enhancements**: Implemented a decision rerun system for AI Agents, ensuring all decision actions execute within a single workflow execution. This improves the reliability and consistency of AI-driven processes.
+
+* **Debug UI for AI Agents**: Developed a debug user interface to facilitate troubleshooting and monitoring of AI Agent activities, enhancing transparency and ease of debugging.
+
+* **API Key Management for Notifications**: Stabilized the API key management system to support notification functionalities, providing a more secure and efficient way to handle API keys.
+
+* **Documentation Updates**: Updated `extensions.md` to reflect new features and changes, ensuring that documentation stays current with the latest system capabilities.
+
+---
+
+## 🐞 Bug Fixes
+
+* **Workflow Page Crash Fix**: Resolved an issue causing the workflow page to crash in on-premise deployments, improving system stability.
+
+* **AI Agent Execution Stability**: Addressed multiple edge cases in AI Agent execution to prevent failures and ensure smooth operation.
+
+* **Distribution Issue Edge Case**: Fixed a specific edge case related to distribution issues, enhancing the robustness of the system under various conditions.
+
+---
+
+## 🔧 Other Updates
+
+* **Helm Chart Adjustments**: Removed unnecessary container ports from the Orborus component in the Helm chart, streamlining deployment configurations.
+
+* **Worker Response Information**: Enhanced the worker component to provide more detailed information in responses, aiding in debugging and monitoring.
+
+* **Python Apps Simplification**: Performed multiple simplifications and rebuilds of Python applications to improve maintainability and performance.
+
+* **Documentation Enhancements**: Made several updates to documentation files, including `configuration.md` and `2.0.2.md`, to provide clearer guidance and reflect recent changes.
