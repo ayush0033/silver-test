@@ -13,6 +13,9 @@
 * **API Key Management for Notifications**: Stabilized the API key management system to support notification functionalities, providing a more secure and efficient way to handle API keys.
 
 * **Documentation Updates**: Updated `extensions.md` to reflect new features and changes, ensuring that documentation stays current with the latest system capabilities.
+* Updated branding details for partners to enhance customization options.
+* Made multi-tenant workflows automatically activate apps in child organizations.
+* Added support for tracking user roles on login and organization changes for SSO providers.
 
 ---
 
@@ -23,6 +26,10 @@
 * **AI Agent Execution Stability**: Addressed multiple edge cases in AI Agent execution to prevent failures and ensure smooth operation.
 
 * **Distribution Issue Edge Case**: Fixed a specific edge case related to distribution issues, enhancing the robustness of the system under various conditions.
+  
+* Corrected a public workflow loading issue in regional failures by falling back to the main region.
+
+* Fixed problems related to app and workflow run limits, allowing adjustments from parent to sub-organisations.
 
 ---
 
@@ -34,4 +41,8 @@
 
 * **Python Apps Simplification**: Performed multiple simplifications and rebuilds of Python applications to improve maintainability and performance.
 
-* **Documentation Enhancements**: Made several updates to documentation files, including `configuration.md` and `2.0.2.md`, to provide clearer guidance and reflect recent changes.
+* **Documentation Enhancements**: Made several updates to documentation files, including `configuration.md`, App Certificate and `2.0.2.md`, to provide clearer guidance and reflect recent changes.
+
+* Minor updates to the billing page for improved user experience.
+
+* Updated pricing and open-source articles for clarity and accuracy.
