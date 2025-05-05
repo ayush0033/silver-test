@@ -1,46 +1,17 @@
-# Shuffle Release Summary: April 5, 2025 – May 5, 2025
----
+# Release Updates (2025-04-05 to 2025-05-05)
 
 ## Features
-
-* **AI Agent Enhancements**
-
-  * Implemented a decision rerun system for AI Agents to ensure all decision actions execute within a single workflow execution.
-  * Stabilized the AI Agent execution process and initiated development of a debug UI for better troubleshooting.
-
-* **API Key Management**
-
-  * Stabilized the API key management system to support notification functionalities.
-
-* **Documentation Updates**
-
-  * Updated documentation to reflect changes in configuration and app certificate handling.
-  * Added information about the `.env` file and updated pricing and open-source articles.
-
----
+- Implemented a debug UI for AI Agent workflows to simplify monitoring and debugging.
+- Enhanced the AI Agent decision rerun system to ensure single workflow execution for streamlined processes.
+- Stabilized API key management for use in notification systems and added edge case handlers for more robust operations.
 
 ## Bug Fixes
-
-* **Workflow Page Crash**
-
-  * Resolved an issue causing the workflow page to crash in on-premise deployments.
-
-* **Distribution Edge Case**
-
-  * Addressed an edge case in the distribution system to prevent potential errors.
-
-* **Helm Configuration**
-
-  * Removed unnecessary container ports from the Orborus Helm chart to streamline deployments.
-
----
+- Resolved issue causing workflow page crashes in on-prem setups.
+- Fixed edge case distribution issues affecting certain deployment scenarios.
+- Addressed a region-specific error for loading public workflows when unavailable in a targeted region.
+- Applied minor fixes to the billing page for smoother user experience.
 
 ## Other Updates
-
-* **Python App Simplification**
-
-  * Performed multiple simplifications and rebuilds of Python applications to enhance maintainability.
-
-* **Version Sync**
-
-  * Synchronized components to version 2.0.2 to ensure consistency across the platform.
+- Synchronized with the main branch to align with the latest improvements and changes.
+- Added detailed application response logging in the worker for better traceability and debugging.
+- Minor updates and cleanups to improve system stability and maintainability.
