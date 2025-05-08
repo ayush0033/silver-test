@@ -1,7 +1,5 @@
 # Shuffle 2.0.3 - Enhancements in Branding, SSO Role Tracking, and Workflow Execution
 
-<img width="809" alt="Screenshot 2025-05-08 at 7 28 28 PM" src="https://github.com/user-attachments/assets/19b80458-d167-4437-bbd5-ce6f6ea4ec4f" />
-
 ## ✅ Important updates
 
 * **AI Agent Enhancements**: Implemented a decision rerun system for AI Agents, ensuring all decision actions execute within a single workflow execution. This improves the reliability and consistency of AI-driven processes.
