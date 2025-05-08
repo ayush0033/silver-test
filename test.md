@@ -6,8 +6,6 @@
 
 * **AI Agent Enhancements**: Implemented a decision rerun system for AI Agents, ensuring all decision actions execute within a single workflow execution. This improves the reliability and consistency of AI-driven processes.
 
-  <img width="701" alt="AI_Agent_Enhancements" src="https://github.com/user-attachments/assets/02fd993d-4ec2-4952-b943-0f3bfdd50068" />
-
 * **[Debug UI for AI Agents](https://shuffler.io/docs/extensions#ai-agents)**: Developed a debug user interface to facilitate troubleshooting and monitoring of AI Agent activities, enhancing transparency and ease of debugging.
 
   <img width="850" alt="Debug_UI_for_AI_Agents" src="https://github.com/user-attachments/assets/8895f732-0c0a-46a4-856c-0a523338f6c6" />
